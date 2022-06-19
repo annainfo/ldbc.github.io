@@ -43,9 +43,9 @@ We will have a social event on Friday at 17:30 at [El Vez](https://elvezrestaura
 | 13:20 | 13:35  | Altan Birler (TU Munich)                                      | Relational databases can handle graphs too! Experiences with optimizing the Umbra RDBMS for LDBC SNB BI – [slides](attachments/altan-birler-relational-databases-can-handle-graphs-too.pdf) |
 | 13:40 | 13:55  | David Püroja (CWI)                                            | LDBC Social Network Benchmark: Interactive workload v2.0 – [slides](attachments/david-puroja-ldbc-snb-interactive-workload-v2.0.pdf) |
 | 14:00 | 14:15  | Angela Bonifati (Lyon 1 University)                           | The quest for schemas in graph databases – [slides](attachments/angela-bonifati-the-quest-for-schemas-in-graph-databases.pdf) |
-| 14:20 | 14:35  | Matteo Lissandrini (Aalborg University)                       | Understanding graph data representations in triplestores – [slides](attachments/) |
+| 14:20 | 14:35  | Matteo Lissandrini (Aalborg University)                       | Understanding graph data representations in triplestores – [slides](attachments/matteo-lissandrini-understanding-graph-data-representations-in-triplestores.pdf) |
 | 14:40 | 14:55  | Wim Martens (University of Bayreuth)                          | Path representations – [slides](attachments/wim-martens-path-representations.pdf) |
-| 15:00 | 15:20  | Audrey Cheng	(UC Berkeley)                                    | TAOBench: An end-to-end benchmark for social network workload – [slides](attachments/) |
+| 15:00 | 15:20  | Audrey Cheng	(UC Berkeley)                                    | TAOBench: An end-to-end benchmark for social network workload – [slides](attachments/audrey-cheng-taobench.pdf) |
 
 
 #### Saturday ([Philadelphia Marriott Downtown](), room 401-402, 4th floor)
@@ -61,7 +61,7 @@ We will have a social event on Friday at 17:30 at [El Vez](https://elvezrestaura
 | 12:00	| 13:30  | _lunch (on your own)_                                    | |
 | 13:30	| 13:45  | Daniël ten Wolde (CWI)                                   | Implementing SQL/PGQ in DuckDB – [slides](attachments/daniel-ten-wolde-implementing-sql-pgq-in-duckdb.pdf) |
 | 13:50	| 14:05  | Oszkár Semeráth, Kristóf Marussy (TU Budapest)           | Generation techniques for consistent, realistic, diverse, and scalable graphs – [slides](attachments/oszkar-semerath-generation-techniques-for-consistent-realistic-diverse-and-scalable-graphs.pdf) |
-| 14:10	| 14:25  | Molham Aref (RelationalAI)                               | Graph Normal Form – [slides](attachments/) |
+| 14:10	| 14:25  | Molham Aref (RelationalAI)                               | Graph Normal Form – [slides](attachments/molham-aref-graph-normal-form.pdf) |
 | 14:30	| 14:45  | Naomi Arnold (Queen Mary University of London)           | Investigating the Alt-Right Network Gab with Temporal Interaction Graphs – [slides](attachments/) |
 | 14:50	| 15:05  | Domagoj Vrgoč (PUC Chile)                                | Evaluating path queries in MillenniumDB – [slides](attachments/domagoj-vrgoc-regular-path-queries-in-millenniumdb.pdf) |
-| 15:10	| 15:25  | Pavel Klinov, Evren Sirin (Stardog)                      | Stardog's experience with LDBC – [slides](attachments/) |
+| 15:10	| 15:25  | Pavel Klinov, Evren Sirin (Stardog)                      | Stardog's experience with LDBC – [slides](attachments/evren-sirin-stardog-experience-with-ldbc.pdf) |

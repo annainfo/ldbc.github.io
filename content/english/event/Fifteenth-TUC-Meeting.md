@@ -32,7 +32,7 @@ We will have a social event on Friday at 17:30 at [El Vez](https://elvezrestaura
 |-------|--------|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | 9:20  | 9:30   | Peter Boncz (LDBC/CWI)                                        | State of the union – [slides](attachments/peter-boncz-state-of-the-union.pdf) |
 | 9:30  | 9:45   | Alastair Green (LDBC/Birkbeck)                                | LDBC's fair use policies – [slides](attachments/alastair-green-fair-use-of-the-ldbc-trademark.pdf) |
-| 9:50  | 10:05  | Gábor Szárnyas (LDBC/CWI), Jack Waudby (Newcastle University) | LDBC Social Network Benchmark: Business Intelligence workload v1.0 – [slides](attachments/gabor-szarnyas-ldbc-snb-bi.pdf) |
+| 9:50  | 10:05  | Gábor Szárnyas (LDBC/CWI), Jack Waudby (Newcastle University) | LDBC Social Network Benchmark: Business Intelligence workload v1.0 – [slides](attachments/gabor-szarnyas-the-ldbc-social-network-benchmark-business-intelligence-workload.pdf) |
 | 10:10 | 10:25  | Heng Lin (Ant Group)                                          | LDBC Financial Benchmark introduction – [slides](attachments/heng-lin-ldbc-financial-benchmark-introduction.pdf) |
 | 10:30 | 11:00  | _coffee break_                                                | |
 | 11:00 | 11:15  | Chen Zhang (CreateLink)                                       | New LDBC SNB benchmark record by Galaxybase: More than 6 times faster and 70% higher throughput – [slides](attachments/), [video](https://youtu.be/sMzTsb8iw_Y) |
@@ -40,7 +40,7 @@ We will have a social event on Friday at 17:30 at [El Vez](https://elvezrestaura
 | 11:40 | 11:55  | Oskar van Rest (Oracle)                                       | Creating and querying property graphs in Oracle, on-premise and in the cloud – [slides](attachments/oskar-van-rest-creating-and-querying-property-graphs-in-oracle-on-premise-and-in-the-cloud.pdf) |
 | 12:00 | 12:15  | Mingxi Wu (TigerGraph)                                        | Conquering LDBC SNB BI at SF-10k – [slides](attachments/mingxi-wu-conquering-ldbc-snb-bi-at-sf10k.pdf) |
 | 12:20 | 13:20  | _lunch (on your own)_                                         | |
-| 13:20 | 13:35  | Altan Birler (TU Munich)                                      | Relational databases can handle graphs too! Experiences with optimizing the Umbra RDBMS for LDBC SNB BI – [slides](attachments/altan-birler-relational-databases-can-handle-graphs-too.pdf) |
+| 13:20 | 13:35  | Altan Birler (Technische Universität München)                                      | Relational databases can handle graphs too! Experiences with optimizing the Umbra RDBMS for LDBC SNB BI – [slides](attachments/altan-birler-relational-databases-can-handle-graphs-too.pdf) |
 | 13:40 | 13:55  | David Püroja (CWI)                                            | LDBC Social Network Benchmark: Interactive workload v2.0 – [slides](attachments/david-puroja-ldbc-snb-interactive-workload-v2.0.pdf) |
 | 14:00 | 14:15  | Angela Bonifati (Lyon 1 University)                           | The quest for schemas in graph databases – [slides](attachments/angela-bonifati-the-quest-for-schemas-in-graph-databases.pdf) |
 | 14:20 | 14:35  | Matteo Lissandrini (Aalborg University)                       | Understanding graph data representations in triplestores – [slides](attachments/matteo-lissandrini-understanding-graph-data-representations-in-triplestores.pdf) |

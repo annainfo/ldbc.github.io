@@ -45,7 +45,7 @@ We will have a social event on Friday at 17:30 at [El Vez](https://elvezrestaura
 | 14:00 | 14:15  | Angela Bonifati (Lyon 1 University)                           | The quest for schemas in graph databases – [slides](attachments/angela-bonifati-the-quest-for-schemas-in-graph-databases.pdf) |
 | 14:20 | 14:35  | Matteo Lissandrini (Aalborg University)                       | Understanding graph data representations in triplestores – [slides](attachments/matteo-lissandrini-understanding-graph-data-representations-in-triplestores.pdf) |
 | 14:40 | 14:55  | Wim Martens (University of Bayreuth)                          | Path representations – [slides](attachments/wim-martens-path-representations.pdf) |
-| 15:00 | 15:20  | Audrey Cheng	(UC Berkeley)                                    | TAOBench: An end-to-end benchmark for social network workload – [slides](attachments/audrey-cheng-taobench.pdf) |
+| 15:00 | 15:20  | Audrey Cheng	(UC Berkeley)                                    | TAOBench – [slides](attachments/audrey-cheng-taobench.pdf) |
 
 
 #### Saturday ([Philadelphia Marriott Downtown](), room 401-402, 4th floor)

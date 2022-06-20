@@ -62,6 +62,6 @@ We will have a social event on Friday at 17:30 at [El Vez](https://elvezrestaura
 | 13:30	| 13:45  | Daniël ten Wolde (CWI)                                   | Implementing SQL/PGQ in DuckDB – [slides](attachments/daniel-ten-wolde-implementing-sql-pgq-in-duckdb.pdf) |
 | 13:50	| 14:05  | Oszkár Semeráth, Kristóf Marussy (TU Budapest)           | Generation techniques for consistent, realistic, diverse, and scalable graphs – [slides](attachments/oszkar-semerath-generation-techniques-for-consistent-realistic-diverse-and-scalable-graphs.pdf) |
 | 14:10	| 14:25  | Molham Aref (RelationalAI)                               | Graph Normal Form – [slides](attachments/molham-aref-graph-normal-form.pdf) |
-| 14:30	| 14:45  | Naomi Arnold (Queen Mary University of London)           | Investigating the Alt-Right Network Gab with Temporal Interaction Graphs – [slides](attachments/) |
+| 14:30	| 14:45  | Naomi Arnold (Queen Mary University of London)           | Temporal graph analysis of the far-right social network Gab – [slides](attachments/naomi-arnold-temporal-graph-analysis-of-the-far-right-social-network-gab.pdf) |
 | 14:50	| 15:05  | Domagoj Vrgoč (PUC Chile)                                | Evaluating path queries in MillenniumDB – [slides](attachments/domagoj-vrgoc-regular-path-queries-in-millenniumdb.pdf) |
 | 15:10	| 15:25  | Pavel Klinov, Evren Sirin (Stardog)                      | Stardog's experience with LDBC – [slides](attachments/evren-sirin-stardog-experience-with-ldbc.pdf) |

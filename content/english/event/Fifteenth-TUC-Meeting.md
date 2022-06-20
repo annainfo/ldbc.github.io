@@ -53,7 +53,7 @@ We will have a social event on Friday at 17:30 at [El Vez](https://elvezrestaura
 | start | finish | speaker                                                  | title |
 |-------|--------|----------------------------------------------------------|---------------------------------------------------------------------------------------|
 | 10:00	| 10:15  | Keith Hare (WG3)                                         | An update on the GQL & SQL/PGQ standards efforts  – [slides](attachments/keith-hare-property-graph-standards-process-and-timing.pdf) |
-| 10:20	| 10:35  | Leonid Libkin (ENS Paris)                                | Pattern matching in GQL and SQL/PGQ  – [slides](attachments/pattern-matching-in-gql-and-sql-pgq.pdf) |
+| 10:20	| 10:35  | Leonid Libkin (ENS Paris)                                | Pattern matching in GQL and SQL/PGQ  – [slides](attachments/leonid-libkin-pattern-matching-in-gql-and-sql-pgq.pdf) |
 | 10:40	| 10:55  | Petra Selmer (Neo4j/WG3)                                 | An overview of GQL – [slides](attachments/petra-selmer-towards-gql-v1-a-property-graph-query-language-standard.pdf) |
 | 11:00	| 11:15  | Alastair Green (LDBC/WG3)                                | GQL 2.0: A technical manifesto – [slides](attachments/alastair-green-gql-2.0-a-technical-manifesto.pdf) |
 | 11:20	| 11:35  | George Fletcher (TU Eindhoven)                           | PG-Keys (LDBC Property Graph Schema Working Group) – [slides](attachments/george-fletcher-pg-keys-keys-for-property-graphs.pdf) |

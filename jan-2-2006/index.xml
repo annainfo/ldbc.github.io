@@ -45,7 +45,7 @@ The tenative program is the following. &lt;strong&gt;All times are in EDT.&lt;/s
 &lt;td&gt;9:50&lt;/td&gt;
 &lt;td&gt;10:05&lt;/td&gt;
 &lt;td&gt;Gábor Szárnyas (LDBC/CWI), Jack Waudby (Newcastle University)&lt;/td&gt;
-&lt;td&gt;LDBC Social Network Benchmark: Business Intelligence workload v1.0 – &lt;a href=&#34;attachments/gabor-szarnyas-ldbc-snb-bi.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;LDBC Social Network Benchmark: Business Intelligence workload v1.0 – &lt;a href=&#34;attachments/gabor-szarnyas-the-ldbc-social-network-benchmark-business-intelligence-workload.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;10:10&lt;/td&gt;
@@ -92,7 +92,7 @@ The tenative program is the following. &lt;strong&gt;All times are in EDT.&lt;/s
 &lt;tr&gt;
 &lt;td&gt;13:20&lt;/td&gt;
 &lt;td&gt;13:35&lt;/td&gt;
-&lt;td&gt;Altan Birler (TU Munich)&lt;/td&gt;
+&lt;td&gt;Altan Birler (Technische Universität München)&lt;/td&gt;
 &lt;td&gt;Relational databases can handle graphs too! Experiences with optimizing the Umbra RDBMS for LDBC SNB BI – &lt;a href=&#34;attachments/altan-birler-relational-databases-can-handle-graphs-too.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -111,7 +111,7 @@ The tenative program is the following. &lt;strong&gt;All times are in EDT.&lt;/s
 &lt;td&gt;14:20&lt;/td&gt;
 &lt;td&gt;14:35&lt;/td&gt;
 &lt;td&gt;Matteo Lissandrini (Aalborg University)&lt;/td&gt;
-&lt;td&gt;Understanding graph data representations in triplestores – &lt;a href=&#34;attachments/&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Understanding graph data representations in triplestores – &lt;a href=&#34;attachments/matteo-lissandrini-understanding-graph-data-representations-in-triplestores.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;14:40&lt;/td&gt;
@@ -123,7 +123,7 @@ The tenative program is the following. &lt;strong&gt;All times are in EDT.&lt;/s
 &lt;td&gt;15:00&lt;/td&gt;
 &lt;td&gt;15:20&lt;/td&gt;
 &lt;td&gt;Audrey Cheng	(UC Berkeley)&lt;/td&gt;
-&lt;td&gt;TAOBench: An end-to-end benchmark for social network workload – &lt;a href=&#34;attachments/&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;TAOBench – &lt;a href=&#34;attachments/audrey-cheng-taobench.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -196,7 +196,7 @@ The tenative program is the following. &lt;strong&gt;All times are in EDT.&lt;/s
 &lt;td&gt;14:10&lt;/td&gt;
 &lt;td&gt;14:25&lt;/td&gt;
 &lt;td&gt;Molham Aref (RelationalAI)&lt;/td&gt;
-&lt;td&gt;Graph Normal Form – &lt;a href=&#34;attachments/&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Graph Normal Form – &lt;a href=&#34;attachments/molham-aref-graph-normal-form.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;14:30&lt;/td&gt;
@@ -214,7 +214,7 @@ The tenative program is the following. &lt;strong&gt;All times are in EDT.&lt;/s
 &lt;td&gt;15:10&lt;/td&gt;
 &lt;td&gt;15:25&lt;/td&gt;
 &lt;td&gt;Pavel Klinov, Evren Sirin (Stardog)&lt;/td&gt;
-&lt;td&gt;Stardog&amp;rsquo;s experience with LDBC – &lt;a href=&#34;attachments/&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Stardog&amp;rsquo;s experience with LDBC – &lt;a href=&#34;attachments/evren-sirin-stardog-experience-with-ldbc.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

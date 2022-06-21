@@ -45,14 +45,14 @@ We will have a social event on Friday at 17:30 at [El Vez](https://elvezrestaura
 | 14:00 | 14:15  | Angela Bonifati (Lyon 1 University)                           | The quest for schemas in graph databases – [slides](attachments/angela-bonifati-the-quest-for-schemas-in-graph-databases.pdf) |
 | 14:20 | 14:35  | Matteo Lissandrini (Aalborg University)                       | Understanding graph data representations in triplestores – [slides](attachments/matteo-lissandrini-understanding-graph-data-representations-in-triplestores.pdf) |
 | 14:40 | 14:55  | Wim Martens (University of Bayreuth)                          | Path representations – [slides](attachments/wim-martens-path-representations.pdf) |
-| 15:00 | 15:20  | Audrey Cheng	(UC Berkeley)                                    | TAOBench – [slides](attachments/audrey-cheng-taobench.pdf) |
+| 15:00 | 15:20  | Audrey Cheng	(UC Berkeley)                                    | TAOBench: An End-to-End Benchmark for Social Network Workloads – [slides](attachments/audrey-cheng-taobench.pdf), [video](https://youtu.be/1p8AStxS3es) |
 
 
 #### Saturday ([Philadelphia Marriott Downtown](), room 401-402, 4th floor)
 
 | start | finish | speaker                                                  | title |
 |-------|--------|----------------------------------------------------------|---------------------------------------------------------------------------------------|
-| 10:00	| 10:15  | Keith Hare (WG3)                                         | An update on the GQL & SQL/PGQ standards efforts  – [slides](attachments/keith-hare-property-graph-standards-process-and-timing.pdf) |
+| 10:00	| 10:15  | Keith Hare (WG3)                                         | An update on the GQL & SQL/PGQ standards efforts – [slides](attachments/keith-hare-property-graph-standards-process-and-timing.pdf) |
 | 10:20	| 10:35  | Leonid Libkin (ENS Paris)                                | Pattern matching in GQL and SQL/PGQ  – [slides](attachments/leonid-libkin-pattern-matching-in-gql-and-sql-pgq.pdf) |
 | 10:40	| 10:55  | Petra Selmer (Neo4j/WG3)                                 | An overview of GQL – [slides](attachments/petra-selmer-towards-gql-v1-a-property-graph-query-language-standard.pdf) |
 | 11:00	| 11:15  | Alastair Green (LDBC/WG3)                                | GQL 2.0: A technical manifesto – [slides](attachments/alastair-green-gql-2.0-a-technical-manifesto.pdf) |

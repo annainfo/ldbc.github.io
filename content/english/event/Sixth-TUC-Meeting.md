@@ -120,7 +120,7 @@ graph-processing platforms
 10:30 Arnau Prat (UPC-Sparsity Technologies) and Alex Averbuch (Neo):
 Social Network Benchmark, Interactive Workload
 
-10:50 Moritz Kaufmann. The auditing experience
+10:50 Moritz Kaufmann. [The auditing experience](attachments/moritz-kaufmann-ldbc-snb-benchmark-auditing-6th-ldbc-tuc.pdf)
 
 [11:15 - 11:45 Coffee
 break]

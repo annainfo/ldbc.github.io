@@ -3,7 +3,7 @@ type: event
 title: "Eleventh TUC Meeting"
 location: 
 author: Peter Boncz
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

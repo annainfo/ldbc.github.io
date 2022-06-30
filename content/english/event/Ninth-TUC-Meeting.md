@@ -3,7 +3,7 @@ type: event
 title: "Ninth TUC Meeting"
 location: "SAP Headquarters in Walldorf Germany"
 author: "Marcus Paradies"
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

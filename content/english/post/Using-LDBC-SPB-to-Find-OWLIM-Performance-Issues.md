@@ -2,7 +2,7 @@
 type: post
 title: "Using LDBC SPB to Find OWLIM Performance Issues"
 author: Venelin Kotsev
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

@@ -2,7 +2,7 @@
 type: post
 title: "SNB and Graphs Related Presentations at GRADES '15"
 author: Damaris Coll
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

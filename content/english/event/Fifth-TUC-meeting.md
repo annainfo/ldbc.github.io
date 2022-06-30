@@ -3,7 +3,7 @@ type: event
 title: "Fifth TUC Meeting"
 location: "Athens, Greece"
 author: " Irini Fundulaki"
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

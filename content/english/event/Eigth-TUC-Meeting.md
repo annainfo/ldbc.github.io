@@ -4,7 +4,7 @@ title: "Eighth TUC Meeting"
 location: "Oracle Conference
   Center in Redwood Shores (CA) US"
 author: "Damaris Coll"
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

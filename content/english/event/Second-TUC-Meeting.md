@@ -3,7 +3,7 @@ type: event
 title: "Second TUC Meeting"
 location: Munich, Germany
 author: Josep Larriba Pey
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 short_comment:

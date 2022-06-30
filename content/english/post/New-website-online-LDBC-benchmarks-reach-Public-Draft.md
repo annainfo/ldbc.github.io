@@ -2,7 +2,7 @@
 type: post
 title: "New Website Online LDBC Benchmarks Reach Public Draft"
 author: LDBC
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

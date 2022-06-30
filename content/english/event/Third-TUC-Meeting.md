@@ -3,7 +3,7 @@ type: event
 title: "Third TUC Meeting"
 location: London, United Kingdom
 author: Peter Boncz
-# optional link to homepage of autor
+# optional link to homepage of author
 # short comment shon below author/date
 short_comment:
 # page publish date (NOT event date).

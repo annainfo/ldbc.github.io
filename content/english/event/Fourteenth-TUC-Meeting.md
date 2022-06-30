@@ -3,7 +3,7 @@ type: event
 title: "Fourteenth TUC Meeting"
 location: Copenhagen, Tivoli Hotel, room Akvariet 2
 author: Gábor Szárnyas
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

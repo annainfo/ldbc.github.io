@@ -2,7 +2,7 @@
 type: post
 title: "SNB Data Generator - Getting Started"
 author: Arnau Prat
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

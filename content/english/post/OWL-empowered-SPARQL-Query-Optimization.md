@@ -2,7 +2,7 @@
 type: post
 title: "OWL-Empowered SPARQL Query Optimization"
 author: Irini Fundulaki, Giorgos Flouris
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

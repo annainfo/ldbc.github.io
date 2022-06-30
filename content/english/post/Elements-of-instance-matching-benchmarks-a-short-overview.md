@@ -2,7 +2,7 @@
 type: post
 title: "Elements of Instance Matching Benchmarks: a Short Overview"
 author: Irini Fundulaki
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 #short_comment:

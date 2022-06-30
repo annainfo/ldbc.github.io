@@ -3,7 +3,7 @@ type: event
 title: "Seventh TUC Meeting"
 location: " IBM\\'s TJ Watson, US"
 author: "Ioan Toma"
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

@@ -2,7 +2,7 @@
 type: post
 title: "Event Driven Post Generation in Datagen"
 author: Arnau Prat
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

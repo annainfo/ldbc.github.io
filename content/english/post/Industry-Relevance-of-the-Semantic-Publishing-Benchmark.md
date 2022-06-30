@@ -2,7 +2,7 @@
 type: post
 title: "Industry Relevance of the Semantic Publishing Benchmark"
 author: Atanas Kiryakov
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 short_comment: Why do leading media companies, like the BBC and publishers, from FT to DK and Elsevier, use triplestores?

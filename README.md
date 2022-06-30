@@ -46,7 +46,7 @@ Create a new markdown file with the title as the filename under `content/english
 type: post
 title: "{{ replace .Name "-" " " | title }}"
 author: 
-# optional link to homepage of autor
+# optional link to homepage of author
 author_url: 
 # short comment shon below author/date
 short_comment:
@@ -75,7 +75,7 @@ type: event
 title: "{{ replace .Name "-" " " | title }}"
 location: 
 author: 
-# optional link to homepage of autor
+# optional link to homepage of author
 author_url: 
 # short comment shon below author/date
 short_comment:

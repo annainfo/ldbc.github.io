@@ -2,7 +2,7 @@
 type: post
 title: "Getting Started With the Semantic Publishing Benchmark"
 author: Irini Fundulaki
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

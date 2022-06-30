@@ -2,7 +2,7 @@
 type: post
 title: "Why Do We Need an LDBC SNB-Specific Workload Driver?"
 author: Alex Averbuch
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

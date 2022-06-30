@@ -2,7 +2,7 @@
 type: post
 title: "SNB Driver - Part 3: Workload Execution Putting It All Together"
 author: Alex Averbuch
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

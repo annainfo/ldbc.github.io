@@ -3,7 +3,7 @@ type: event
 title: "Thirteenth TUC Meeting"
 location: Online (Zoom)
 author: Peter Boncz
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

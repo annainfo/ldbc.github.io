@@ -3,7 +3,7 @@ type: event
 title: "First TUC Meeting"
 location: "Barcelona, Spain"
 author: "Barry Bishop"
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

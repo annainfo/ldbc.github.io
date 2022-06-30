@@ -2,7 +2,7 @@
 type: post
 title: "Making It Interactive"
 author: Orri Erling
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

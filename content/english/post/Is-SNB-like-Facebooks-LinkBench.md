@@ -2,7 +2,7 @@
 type: post
 title: "Is SNB Like Facebooks LinkBench"
 author: Peter Boncz
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 short_comment: This table shows which kind of graph data management system might be tested for the three different  SNB workloads.

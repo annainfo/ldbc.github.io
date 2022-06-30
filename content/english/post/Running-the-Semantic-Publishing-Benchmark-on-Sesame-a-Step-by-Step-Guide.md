@@ -2,7 +2,7 @@
 type: post
 title: "Running the Semantic Publishing Benchmark on Sesame, a Step by Step Guide"
 author: Iliya Enchev
-# optional link to homepage of autor
+# optional link to homepage of author
 # author_url: 
 # short comment shon below author/date
 # short_comment:

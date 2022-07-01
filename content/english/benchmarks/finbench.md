@@ -11,3 +11,4 @@ The Financial Benchmark (FinBench) project aims to define a graph database bench
 
 * [Work charter](/benchmarks/finbench/ldbc-finbench-work-charter.pdf)
 * [Introduction presentation](/benchmarks/finbench/ldbc-finbench-introduction.pdf)
+* [Specification draft (GitHub repository)](https://github.com/ldbc/ldbc_finbench_docs)

@@ -51,3 +51,9 @@ TuGraph was audited in July 2020. TuGraph is owned by the [Ant Group](https://ww
 #### Legacy audited results
 
 [Social Network Benchmark Interactive, version 0.2.2](/benchmarks/snb/audited-results-v0.2.2)
+
+#### Retrospective review of publications related to LDBC benchmark standards
+
+* [Review of 2019 preprint (sponsored by TigerGraph)](retrospective-report-tigergraph.pdf)
+* [Review of 2020 whitepaper (authored by Oracle)](retrospective-report-oracle.pdf)
+* [Review of Keynote at NODES 2021 (Neo4j Online Developer Expo and Summit)](retrospective-report-neo4j.pdf)

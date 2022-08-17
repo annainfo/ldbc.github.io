@@ -22,25 +22,39 @@ The [LDBC Social Network Benchmark specification](https://arxiv.org/abs/2001.022
 
 #### Social Network Benchmark Interactive audited results
 
-| **SF** | **Throughput (ops/sec)** | **Cost** | **Software** | **Hardware** | **Test Sponsor** | **Date** | **SNB Version** | **Full Disclosure Report** |
-|--------|--------------------------|----------|--------------|--------------|------------------|----------|-----------------|----------------------------|
-| 30  | 9,285.86 | $263,282 | [Galaxybase 3.3.0](https://galaxybase.com/) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8259CL @ 2.5GHz, 372GB RAM | [CreateLink](https://www.galaxybase.com/) | 2022/05/16 | [v0.3.3](https://arxiv.org/pdf/2001.02299v2.pdf) | [Full Disclosure Report](LDBC_SNB_I_20220516_SF30-100-300_galaxybase.pdf) |
-| 100 | 8,501.21 | $263,282 | [Galaxybase 3.3.0](https://galaxybase.com/) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8259CL @ 2.5GHz, 372GB RAM | [CreateLink](https://www.galaxybase.com/) | 2022/05/16 | [v0.3.3](https://arxiv.org/pdf/2001.02299v2.pdf) | [Full Disclosure Report](LDBC_SNB_I_20220516_SF30-100-300_galaxybase.pdf) |
-| 300 | 8,370.52 | $263,282 | [Galaxybase 3.3.0](https://galaxybase.com/) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8259CL @ 2.5GHz, 372GB RAM | [CreateLink](https://www.galaxybase.com/) | 2022/05/16 | [v0.3.3](https://arxiv.org/pdf/2001.02299v2.pdf) | [Full Disclosure Report](LDBC_SNB_I_20220516_SF30-100-300_galaxybase.pdf) |
-| 30  | 5,436.47 | $280,650 | [TuGraph 1.10](https://fma-ai.cn/) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8175M @ 2.5GHz, 374GB RAM | [FMA](https://fma-ai.cn/) | 2020/07/26 | [v0.3.2](https://arxiv.org/pdf/2001.02299v1.pdf) | [Full Disclosure Report](LDBC_SNB_I_20200726_SF30-100-300_tugraph.pdf) |
-| 100 | 5,010.77 | $280,650 | [TuGraph 1.10](https://fma-ai.cn/) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8175M @ 2.5GHz, 374GB RAM | [FMA](https://fma-ai.cn/) | 2020/07/26 | [v0.3.2](https://arxiv.org/pdf/2001.02299v1.pdf) | [Full Disclosure Report](LDBC_SNB_I_20200726_SF30-100-300_tugraph.pdf) |
-| 300 | 4,855.52 | $280,650 | [TuGraph 1.10](https://fma-ai.cn/) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8175M @ 2.5GHz, 374GB RAM | [FMA](https://fma-ai.cn/) | 2020/07/26 | [v0.3.2](https://arxiv.org/pdf/2001.02299v1.pdf) | [Full Disclosure Report](LDBC_SNB_I_20200726_SF30-100-300_tugraph.pdf) |
+**Disclaimer:** Performance results between implementations using the v0.x and the v1.x drivers are not directly comparable due to [improvements in the SNB driver regarding how operations are counted](https://github.com/ldbc/ldbc_snb_interactive_driver/issues/154).
+
+| **SF** | **Throughput (ops/sec)** | **Cost** | **Software** | **Hardware** | **Test Sponsor** | **Date** | **SNB Version** | **Driver Version** | **Full Disclosure Report** |
+|--------|--------------------------|----------|--------------|--------------|------------------|----------|-----------------|--------------------|----------------------------|
+| 30  | 12,252.50 | $291,176 | [TuGraph 3.2.0](https://tech.antfin.com/products/TuGraph) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8259CL @ 2.5GHz, 384GiB RAM | [Ant Group](https://www.antgroup.com/en) | 2022/08/16 | [v0.3.6](https://arxiv.org/pdf/2001.02299v3.pdf) | [v1.2.0](https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/v1.2.0) | [Full Disclosure Report](LDBC_SNB_I_20220816_SF30-100-300_tugraph.pdf) |
+| 100 | 12,934.61 | $291,176 | [TuGraph 3.2.0](https://tech.antfin.com/products/TuGraph) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8259CL @ 2.5GHz, 384GiB RAM | [Ant Group](https://www.antgroup.com/en) | 2022/08/16 | [v0.3.6](https://arxiv.org/pdf/2001.02299v3.pdf) | [v1.2.0](https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/v1.2.0) | [Full Disclosure Report](LDBC_SNB_I_20220816_SF30-100-300_tugraph.pdf) |
+| 300 | 12,721.24 | $291,176 | [TuGraph 3.2.0](https://tech.antfin.com/products/TuGraph) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8259CL @ 2.5GHz, 384GiB RAM | [Ant Group](https://www.antgroup.com/en) | 2022/08/16 | [v0.3.6](https://arxiv.org/pdf/2001.02299v3.pdf) | [v1.2.0](https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/v1.2.0) | [Full Disclosure Report](LDBC_SNB_I_20220816_SF30-100-300_tugraph.pdf) |
+| 30  | 9,285.86 | $263,282 | [Galaxybase 3.3.0](https://galaxybase.com/) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8259CL @ 2.5GHz, 372GB RAM | [CreateLink](https://www.galaxybase.com/) | 2022/05/16 | [v0.3.3](https://arxiv.org/pdf/2001.02299v2.pdf) | [v0.3.4](https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/0.3.4) | [Full Disclosure Report](LDBC_SNB_I_20220516_SF30-100-300_galaxybase.pdf) |
+| 100 | 8,501.21 | $263,282 | [Galaxybase 3.3.0](https://galaxybase.com/) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8259CL @ 2.5GHz, 372GB RAM | [CreateLink](https://www.galaxybase.com/) | 2022/05/16 | [v0.3.3](https://arxiv.org/pdf/2001.02299v2.pdf) | [v0.3.4](https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/0.3.4) | [Full Disclosure Report](LDBC_SNB_I_20220516_SF30-100-300_galaxybase.pdf) |
+| 300 | 8,370.52 | $263,282 | [Galaxybase 3.3.0](https://galaxybase.com/) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8259CL @ 2.5GHz, 372GB RAM | [CreateLink](https://www.galaxybase.com/) | 2022/05/16 | [v0.3.3](https://arxiv.org/pdf/2001.02299v2.pdf) | [v0.3.4](https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/0.3.4) | [Full Disclosure Report](LDBC_SNB_I_20220516_SF30-100-300_galaxybase.pdf) |
+| 30  | 5,436.47 | $280,650 | [TuGraph 1.10](https://fma-ai.cn/) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8175M @ 2.5GHz, 374GB RAM | [FMA](https://fma-ai.cn/) | 2020/07/26 | [v0.3.2](https://arxiv.org/pdf/2001.02299v1.pdf) | [v0.3.3](https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/0.3.3) | [Full Disclosure Report](LDBC_SNB_I_20200726_SF30-100-300_tugraph.pdf) |
+| 100 | 5,010.77 | $280,650 | [TuGraph 1.10](https://fma-ai.cn/) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8175M @ 2.5GHz, 374GB RAM | [FMA](https://fma-ai.cn/) | 2020/07/26 | [v0.3.2](https://arxiv.org/pdf/2001.02299v1.pdf) | [v0.3.3](https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/0.3.3) | [Full Disclosure Report](LDBC_SNB_I_20200726_SF30-100-300_tugraph.pdf) |
+| 300 | 4,855.52 | $280,650 | [TuGraph 1.10](https://fma-ai.cn/) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8175M @ 2.5GHz, 374GB RAM | [FMA](https://fma-ai.cn/) | 2020/07/26 | [v0.3.2](https://arxiv.org/pdf/2001.02299v1.pdf) | [v0.3.3](https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/0.3.3) | [Full Disclosure Report](LDBC_SNB_I_20200726_SF30-100-300_tugraph.pdf) |
 
 
 #### Supplementary materials
 
-Supplementary material for the **Galaxybase audits**:
+
+Supplementary material for the **2022 TuGraph audit sponsored by the Ant Group:**
+
+-  [Executive summary](LDBC_SNB_I_20220816_SF30-100-300_tugraph-executive_summary.pdf)
+-  [Signatures](LDBC_SNB_I_20220816_SF30-100-300_tugraph-signatures.pdf)
+-  [Attachments](https://drive.google.com/file/d/1A0uON2sf4pY3uyHhenkvqWd-yij7VE7Y/view?usp=sharing)
+
+
+
+Supplementary material for the **2022 Galaxybase audit sponsored by CreateLink:**
 
 -  [Executive summary](LDBC_SNB_I_20220516_SF30-100-300_galaxybase-executive_summary.pdf)
 -  [Signatures](LDBC_SNB_I_20220516_SF30-100-300_galaxybase-signatures.pdf)
 -  [Attachments](https://drive.google.com/file/d/1tUxtWJAP1r8tRYtJevo436QBir4NZ5iA/view?usp=sharing)
 
-Supplementary material for the **TuGraph audits**:
+Supplementary material for the **2020 TuGraph audit sponsored by FMA:**
 
 -  [Executive summary](LDBC_SNB_I_20200726_SF30-100-300_tugraph-executive_summary.pdf)
 -  [Signatures](LDBC_SNB_I_20200726_SF30-100-300_tugraph-signatures.pdf)

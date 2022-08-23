@@ -20,7 +20,9 @@ times.
 
 The [LDBC Social Network Benchmark specification](https://arxiv.org/abs/2001.02299) (including the latest and earlier versions) can be found on arXiv. If you are interested in getting audited results, please reach out at info AT ldbcouncil.org.
 
-#### Social Network Benchmark Interactive audited results
+### Social Network Benchmark: Interactive workload
+
+#### Audited results
 
 **Disclaimer:** Performance results between implementations using the v0.x and the v1.x drivers are not directly comparable due to [improvements in the SNB driver regarding how operations are counted](https://github.com/ldbc/ldbc_snb_interactive_driver/issues/154).
 
@@ -39,14 +41,11 @@ The [LDBC Social Network Benchmark specification](https://arxiv.org/abs/2001.022
 
 #### Supplementary materials
 
-
 Supplementary material for the **2022 TuGraph audit sponsored by the Ant Group:**
 
 -  [Executive summary](LDBC_SNB_I_20220816_SF30-100-300_tugraph-executive_summary.pdf)
 -  [Signatures](LDBC_SNB_I_20220816_SF30-100-300_tugraph-signatures.pdf)
 -  [Attachments](https://drive.google.com/file/d/1A0uON2sf4pY3uyHhenkvqWd-yij7VE7Y/view?usp=sharing)
-
-
 
 Supplementary material for the **2022 Galaxybase audit sponsored by CreateLink:**
 
@@ -60,7 +59,14 @@ Supplementary material for the **2020 TuGraph audit sponsored by FMA:**
 -  [Signatures](LDBC_SNB_I_20200726_SF30-100-300_tugraph-signatures.pdf)
 -  [Attachments](https://drive.google.com/file/d/198UrkL7_vduOm5MTneVniiYBG8U2a8x9/view?usp=sharing)
 
-TuGraph was audited in July 2020. TuGraph is owned by the [Ant Group](https://www.antgroup.com/en) now.
+#### LDBC-certified auditors
+
+Currently, the following LDBC-certified auditors are available for conducting SNB Interactive audits:
+
+* Márton Búr
+* David Püroja
+
+For auditing requests, please reach out at `info@ldbcouncil.org`.
 
 #### Legacy audited results
 

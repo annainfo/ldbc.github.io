@@ -283,17 +283,17 @@ At this point, both the transformation pipeline and factor generator was ready, 
 
 > [Parquet](https://parquet.apache.org/) is an open source data format that evolved to be the de facto standard for Big Data batch pipelines. It offers a column-oriented, compressed, schemaful representation that is space-efficient and suited for analytic queries. The file format leverages a record shredding and assembly model, which originated at Google. This results in a file that is optimized for query performance and minimizing I/O.
 
-The new serialization framework is heavily influenced by the design of Java `OutputStreams`, in sense that stateful objects are composed to form a pipeline. For example, in case _activities_, the input is an activity tree, and the output is a set of rows in multiple files (eg. forum, forumHasTag, post, postHasTag, etc.). The activity tree is iterated and the corresponding entity serializer is called, which is fed into a component that splits the records among several output streams, writing individual files. This can be seen on the diagram below.
+The new serialization framework is heavily influenced by the design of Java `OutputStreams`, in the sense that stateful objects are composed to form a pipeline. For example, in case of _activities_, the input is an activity tree, and the output is a set of rows in multiple files (eg. forum, forumHasTag, post, postHasTag, etc.). The components that take part in activity serialization are shown on the diagram below. The activity tree is iterated (1st component) and the corresponding entity serializer is called (2nd component), which is fed into a component that splits the records (3rd one) among several output streams writing individual files (last).
 
 ![Activity serialization pipeline](activity.png)
 
-The benefit of this architecture is that only the last component needs to change if we adding support for a new output format.
+The benefit of this architecture is that only the last component needs to change when we add support for a new output format.
 
 To support Parquet, we made use of row-level serializers available in Hadoop's Parquet library (bundled with SparkSQL), and internal classes in SparkSQL to derive Parquet schema for our entities. Remember how we used case classes for the `Raw` entities to derive the input schema in the graph reader during dataset transformation? Here we use the same classes (e.g. `Forum`) and Spark's `Encoder` framework to encode the entities in Parquet, which means that the generated output remains consistent with `DataFrame`-based reader, and we spare a lot of code duplication.
 
 # Optimizations
 
-After these refactors, we were able to generate the BI dataset with scale factor 10K on 300 i3.4xlarge machines in one hour. Decreasing the number of machines resulted in out of memory errors in the generator. We realized partition sizes (and thus the number of partitions) should be determined based on available memory. Our experiments showed that a machine with 128GB of memory is capable of generating SF3K (scale factor 3000) reliably with 3 blocks[^3] per partition given ample disk size to allow for spills (tested with 3.8TB); while less partitions (subsequently, larger block/partition ratio) would introduce OOM errors. Furthermore, we split the data generator output after a certain number of rows written, to fend against the skew between different kinds of entities possibly causing problems during transformation[^4]. These optimizations enabled us to run SF10k reliably on 4 i3.4xlarge machines in 11 hours (which is still more than 6x reduction in cost). We weren't able to run SF30k run on 10 machines (1 machine / SF3K), even 15 ran out of disk. This non-linear disk use should be investigated further as it complicates calculating cluster sizes for larger scale factors.
+After these refactors, we were able to generate the BI dataset with scale factor 10K on 300 i3.4xlarge machines in one hour. Decreasing the number of machines resulted in out of memory errors in the generator. We realized partition sizes (and thus the number of partitions) should be determined based on available memory. Our experiments showed that a machine with 128GB of memory is capable of generating SF3K (scale factor 3000) reliably with 3 blocks[^3] per partition given ample disk size to allow for spills (tested with 3.8TB); while less partitions (subsequently, larger block/partition ratio) would introduce OOM errors. Furthermore, we split the data generator output after a certain number of rows written, to fend against the skew between different kinds of entities possibly causing problems during transformation[^4]. These optimizations enabled us to run SF10K reliably on 4 i3.4xlarge machines in 11 hours (which is still more than 6x reduction in cost). We weren't able to run SF30K run on 10 machines (1 machine / SF3K), even 15 ran out of disk. This non-linear disk use should be investigated further as it complicates calculating cluster sizes for larger scale factors.
 
 ```bash
 ./tools/emr/submit_datagen_job.py sf3k_bi 3000 parquet bi \
@@ -314,7 +314,7 @@ After these refactors, we were able to generate the BI dataset with scale factor
   -- --explode-edges --explode-attrs
 ```
 
-The above examples working configurations for generating the 3k and 10k BI datasets. The `--sf-per-executor` option controls the number of worker nodes allocated, in this case 1 node per every 3000 SF, i.e. 1 and 4 nodes correspondingly. The `--partitions` option controls the total number of partitions, and was calculated based on the number of persons using the formula `partitions = ceil(number_of_persons / block_size / 3)` to get a maximum of 3 blocks per partition.
+The above examples working configurations for generating the 3K and 10K BI datasets. The `--sf-per-executor` option controls the number of worker nodes allocated, in this case 1 node per every 3000 SF, i.e. 1 and 4 nodes correspondingly. The `--partitions` option controls the total number of partitions, and was calculated based on the number of persons using the formula `partitions = ceil(number_of_persons / block_size / 3)` to get a maximum of 3 blocks per partition.
 
 # Conclusion
 
@@ -328,4 +328,4 @@ These improvements made LDBC SNB datagen more modular, maintainable and efficien
 
 [^3]: The datagenerator produces blocks of 10,000 persons and their related entities. Entities from different blocks are unrelated (isolated).
 
-[^4]: The maximum row count per file is currently 10M, however, this can be modified with a command line option. We also had an alternative design in mind where this number would have been determined based on the average row size of each entity, however, we stayed with the simpler alternative.
+[^4]: The maximum row count per file is currently 10M, however, this can be modified with a command line option. We also had an alternative design in mind where this number would have been determined based on the average row size of each entity, however, we stayed with the first version for simplicity.

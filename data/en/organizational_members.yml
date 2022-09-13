@@ -46,7 +46,7 @@ members:
       link: "https://neo4j.com/"
     - name: "Nebula Graph"
       logo: "images/members/nebulagraph.png"
-      link: "https://www.vesoft.com/en/"
+      link: "https://nebula-graph.io/"
     - name: "Ontotext"
       logo: "images/members/ontotext.jpg"
       link: "https://www.ontotext.com/"

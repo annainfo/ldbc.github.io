@@ -188,7 +188,6 @@ trait Writer[S] {
 There are implementations under `ldbc.datagen.io.instances` that read a graph from a `GraphSource` and write to a `GraphSink`.
 
 ```scala
-
 import ldbc.snb.datagen.model
 import ldbc.snb.datagen.model.Mode
 import ldbc.snb.datagen.io.graphs.{GraphSource, GraphSink}

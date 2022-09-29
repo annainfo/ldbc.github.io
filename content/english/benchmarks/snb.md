@@ -61,10 +61,14 @@ Supplementary material for the **2020 TuGraph audit sponsored by FMA:**
 
 #### LDBC-certified auditors
 
-Currently, the following LDBC-certified auditors are available for conducting SNB Interactive audits:
+SNB Interactive audits can be commissioned from the following LDBC-certified auditors:
 
 * Márton Búr
 * David Püroja
+
+SNB BI audits can be commissioned from the following LDBC-certified auditors:
+
+* Fabian Murariu (Pometry Ltd.) – certification in progress
 
 For auditing requests, please reach out at `info@ldbcouncil.org`.
 

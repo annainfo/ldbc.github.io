@@ -45,19 +45,19 @@ Supplementary material for the **2022 TuGraph audit sponsored by the Ant Group:*
 
 -  [Executive summary](LDBC_SNB_I_20220816_SF30-100-300_tugraph-executive_summary.pdf)
 -  [Signatures](LDBC_SNB_I_20220816_SF30-100-300_tugraph-signatures.pdf)
--  [Attachments](https://drive.google.com/file/d/1A0uON2sf4pY3uyHhenkvqWd-yij7VE7Y/view?usp=sharing)
+-  [Attachments](https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_I_20200726_SF30-100-300_tugraph-attachments.tar.gz)
 
 Supplementary material for the **2022 Galaxybase audit sponsored by CreateLink:**
 
 -  [Executive summary](LDBC_SNB_I_20220516_SF30-100-300_galaxybase-executive_summary.pdf)
 -  [Signatures](LDBC_SNB_I_20220516_SF30-100-300_galaxybase-signatures.pdf)
--  [Attachments](https://drive.google.com/file/d/1tUxtWJAP1r8tRYtJevo436QBir4NZ5iA/view?usp=sharing)
+-  [Attachments](https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_I_20220516_SF30-100-300_galaxybase-attachments.tar.gz)
 
 Supplementary material for the **2020 TuGraph audit sponsored by FMA:**
 
 -  [Executive summary](LDBC_SNB_I_20200726_SF30-100-300_tugraph-executive_summary.pdf)
 -  [Signatures](LDBC_SNB_I_20200726_SF30-100-300_tugraph-signatures.pdf)
--  [Attachments](https://drive.google.com/file/d/198UrkL7_vduOm5MTneVniiYBG8U2a8x9/view?usp=sharing)
+-  [Attachments](https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_I_20220816_SF30-100-300_tugraph-attachments.tar.gz)
 
 #### LDBC-certified auditors
 

@@ -134,21 +134,6 @@ hasChildren = true
     name = "Overview"
     url = "gql-community/overview"
     weight = 1
-    [[menu.main]]
-    parent = "gql-community"
-    name = "Property Graph Schema Working Group"
-    url = "gql-community/pgswg"
-    weight = 3
-    [[menu.main]]
-    parent = "gql-community"
-    name = "Existing Languages Working Group"
-    url = "gql-community/elwg"
-    weight = 5
-    [[menu.main]]
-    parent = "gql-community"
-    name = "Formal Semantics Working Group"
-    url = "gql-community/fswg"
-    weight = 7
 
 ## footer menu
 [[menu.footer]]

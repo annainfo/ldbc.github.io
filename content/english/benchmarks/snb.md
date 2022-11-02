@@ -18,11 +18,12 @@ The full disclosure further breaks down the composition of the metric into its c
 
 The [LDBC Social Network Benchmark specification](https://arxiv.org/abs/2001.02299) (including the latest and earlier versions) can be found on arXiv. If you are interested in getting audited results, please reach out at info AT ldbcouncil.org.
 
-### Social Network Benchmark: Business Intelligence workload – Audited results
+### SNB Business Intelligence workload – Audited results
 
 | **SF** | **Power score** | **Throughput score** | **Cost** | **Software** | **Hardware** | **Test Sponsor** | **Date** | **SNB BI Version** | **Full Disclosure Report** |
 |--------|-----------------|----------------------|----------|--------------|--------------|------------------|----------|--------------------|----------------------------|
 
+As of Nov 3, no audited results were published for the SNB BI workload.
 
 ### SNB Interactive workload – Audited results
 

@@ -10,8 +10,8 @@ type: generic
 The Social Network Benchmark suite defines graph workloads targeting database management systems.
 The benchmark suite consists of two distinct benchmarks on a common dataset, since there are **two different workloads**:
 
-- **Business Intelligence workload** is focusing on aggregation- and join-heavy complex queries touching a large portion of the graph with microbatches of insert/delete operations.
-- **Interactive workload** is focusing on transactional graph processing with complex read queries that access the neighbourhood of a given node in the graph and update operations that continuously insert new data in the graph. The SNB data sets are available in the [CWI/SURF data repository](https://hdl.handle.net/11112/e6e00558-a2c3-9214-473e-04a16de09bf8).
+- **Business Intelligence workload** is focusing on aggregation- and join-heavy complex queries touching a large portion of the graph with microbatches of insert/delete operations. Its data sets are available in [Cloudflare R2](https://github.com/ldbc/ldbc_snb_bi/blob/main/snb-bi-pre-generated-data-sets.md).
+- **Interactive workload** captures transactional graph processing scenario with complex read queries that access the neighbourhood of a given node in the graph and update operations that continuously insert new data in the graph. Its data sets are available in the [CWI/SURF data repository](https://hdl.handle.net/11112/e6e00558-a2c3-9214-473e-04a16de09bf8).
 
 Each workload produces scoring metrics for performance at the given scale and price/performance metrics.
 The full disclosure further breaks down the composition of the metric into its constituent parts, e.g. single query execution times.

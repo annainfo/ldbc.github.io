@@ -192,19 +192,32 @@
       <div class="col-lg-12">
         <div class="content">
           <p>The Social Network Benchmark suite defines graph workloads targeting database management systems.
-The benchmark suite consists of two distinct benchmarks on a common dataset, since there are <strong>two different workloads</strong>.
-Each workload produces a single metric for performance at the given
-scale and a price/performance metric at the scale.  The full
-disclosure further breaks down the composition of the metric into its
-constituent parts, e.g. single query execution
-times.</p>
+The benchmark suite consists of two distinct benchmarks on a common dataset, since there are <strong>two different workloads</strong>:</p>
 <ul>
-<li><strong>The Social Network Benchmark's Interactive workload</strong> is focusing on transactional graph processing with complex read queries that access the neighbourhood of a given node in the graph and update operations that continuously insert new data in the graph. The SNB data sets are available in the <a href="https://hdl.handle.net/11112/e6e00558-a2c3-9214-473e-04a16de09bf8">CWI/SURF data repository</a>. This workload is final and open for audits (see below).</li>
-<li><strong>The Social Network Benchmark's Business Intelligence workload</strong> is focusing on aggregation- and join-heavy complex queries touching a large portion of the graph with microbatches of insert/delete operations. This workload is not yet finalized, hence getting audited results is not possible.</li>
+<li><strong>Business Intelligence workload</strong> is focusing on aggregation- and join-heavy complex queries touching a large portion of the graph with microbatches of insert/delete operations.</li>
+<li><strong>Interactive workload</strong> is focusing on transactional graph processing with complex read queries that access the neighbourhood of a given node in the graph and update operations that continuously insert new data in the graph. The SNB data sets are available in the <a href="https://hdl.handle.net/11112/e6e00558-a2c3-9214-473e-04a16de09bf8">CWI/SURF data repository</a>.</li>
 </ul>
+<p>Each workload produces scoring metrics for performance at the given scale and price/performance metrics.
+The full disclosure further breaks down the composition of the metric into its constituent parts, e.g. single query execution times.</p>
 <p>The <a href="https://arxiv.org/abs/2001.02299">LDBC Social Network Benchmark specification</a> (including the latest and earlier versions) can be found on arXiv. If you are interested in getting audited results, please reach out at info AT ldbcouncil.org.</p>
-<h3 id="social-network-benchmark-interactive-workload">Social Network Benchmark: Interactive workload</h3>
-<h4 id="audited-results">Audited results</h4>
+<h3 id="social-network-benchmark-business-intelligence-workload--audited-results">Social Network Benchmark: Business Intelligence workload – Audited results</h3>
+<table>
+<thead>
+<tr>
+<th><strong>SF</strong></th>
+<th><strong>Power score</strong></th>
+<th><strong>Throughput score</strong></th>
+<th><strong>Cost</strong></th>
+<th><strong>Software</strong></th>
+<th><strong>Hardware</strong></th>
+<th><strong>Test Sponsor</strong></th>
+<th><strong>Date</strong></th>
+<th><strong>SNB BI Version</strong></th>
+<th><strong>Full Disclosure Report</strong></th>
+</tr>
+</thead>
+</table>
+<h3 id="snb-interactive-workload--audited-results">SNB Interactive workload – Audited results</h3>
 <p><strong>Disclaimer:</strong> Performance results between implementations using the v0.x and the v1.x drivers are not directly comparable due to <a href="https://github.com/ldbc/ldbc_snb_interactive_driver/issues/154">improvements in the SNB driver regarding how operations are counted</a>.</p>
 <table>
 <thead>
@@ -216,7 +229,7 @@ times.</p>
 <th><strong>Hardware</strong></th>
 <th><strong>Test Sponsor</strong></th>
 <th><strong>Date</strong></th>
-<th><strong>SNB Version</strong></th>
+<th><strong>SNB Interactive Version</strong></th>
 <th><strong>Driver Version</strong></th>
 <th><strong>Full Disclosure Report</strong></th>
 </tr>

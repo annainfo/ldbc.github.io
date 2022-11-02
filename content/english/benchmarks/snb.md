@@ -8,25 +8,27 @@ type: generic
 ---
 
 The Social Network Benchmark suite defines graph workloads targeting database management systems.
-The benchmark suite consists of two distinct benchmarks on a common dataset, since there are **two different workloads**.
-Each workload produces a single metric for performance at the given
-scale and a price/performance metric at the scale.  The full
-disclosure further breaks down the composition of the metric into its
-constituent parts, e.g. single query execution
-times.
+The benchmark suite consists of two distinct benchmarks on a common dataset, since there are **two different workloads**:
 
-- **The Social Network Benchmark\'s Interactive workload** is focusing on transactional graph processing with complex read queries that access the neighbourhood of a given node in the graph and update operations that continuously insert new data in the graph. The SNB data sets are available in the [CWI/SURF data repository](https://hdl.handle.net/11112/e6e00558-a2c3-9214-473e-04a16de09bf8). This workload is final and open for audits (see below).
-- **The Social Network Benchmark\'s Business Intelligence workload** is focusing on aggregation- and join-heavy complex queries touching a large portion of the graph with microbatches of insert/delete operations. This workload is not yet finalized, hence getting audited results is not possible.
+- **Business Intelligence workload** is focusing on aggregation- and join-heavy complex queries touching a large portion of the graph with microbatches of insert/delete operations.
+- **Interactive workload** is focusing on transactional graph processing with complex read queries that access the neighbourhood of a given node in the graph and update operations that continuously insert new data in the graph. The SNB data sets are available in the [CWI/SURF data repository](https://hdl.handle.net/11112/e6e00558-a2c3-9214-473e-04a16de09bf8).
+
+Each workload produces scoring metrics for performance at the given scale and price/performance metrics.
+The full disclosure further breaks down the composition of the metric into its constituent parts, e.g. single query execution times.
 
 The [LDBC Social Network Benchmark specification](https://arxiv.org/abs/2001.02299) (including the latest and earlier versions) can be found on arXiv. If you are interested in getting audited results, please reach out at info AT ldbcouncil.org.
 
-### Social Network Benchmark: Interactive workload
+### Social Network Benchmark: Business Intelligence workload – Audited results
 
-#### Audited results
+| **SF** | **Power score** | **Throughput score** | **Cost** | **Software** | **Hardware** | **Test Sponsor** | **Date** | **SNB BI Version** | **Full Disclosure Report** |
+|--------|-----------------|----------------------|----------|--------------|--------------|------------------|----------|--------------------|----------------------------|
+
+
+### SNB Interactive workload – Audited results
 
 **Disclaimer:** Performance results between implementations using the v0.x and the v1.x drivers are not directly comparable due to [improvements in the SNB driver regarding how operations are counted](https://github.com/ldbc/ldbc_snb_interactive_driver/issues/154).
 
-| **SF** | **Throughput (ops/sec)** | **Cost** | **Software** | **Hardware** | **Test Sponsor** | **Date** | **SNB Version** | **Driver Version** | **Full Disclosure Report** |
+| **SF** | **Throughput (ops/sec)** | **Cost** | **Software** | **Hardware** | **Test Sponsor** | **Date** | **SNB Interactive Version** | **Driver Version** | **Full Disclosure Report** |
 |--------|--------------------------|----------|--------------|--------------|------------------|----------|-----------------|--------------------|----------------------------|
 | 30  | 12,252.50 | $291,176 | [TuGraph 3.2.0](https://tech.antfin.com/products/TuGraph) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8259CL @ 2.5GHz, 384GiB RAM | [Ant Group](https://www.antgroup.com/en) | 2022/08/16 | [v0.3.6](https://arxiv.org/pdf/2001.02299v3.pdf) | [v1.2.0](https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/v1.2.0) | [Full Disclosure Report](LDBC_SNB_I_20220816_SF30-100-300_tugraph.pdf) |
 | 100 | 12,934.61 | $291,176 | [TuGraph 3.2.0](https://tech.antfin.com/products/TuGraph) | AWS r5d.12xlarge instance, 48\*Intel Xeon Platinum 8259CL @ 2.5GHz, 384GiB RAM | [Ant Group](https://www.antgroup.com/en) | 2022/08/16 | [v0.3.6](https://arxiv.org/pdf/2001.02299v3.pdf) | [v1.2.0](https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/v1.2.0) | [Full Disclosure Report](LDBC_SNB_I_20220816_SF30-100-300_tugraph.pdf) |

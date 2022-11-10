@@ -84,3 +84,7 @@ For auditing requests, please reach out at `info@ldbcouncil.org`.
 * [Review of 2019 preprint (sponsored by TigerGraph)](retrospective-report-tigergraph.pdf)
 * [Review of 2020 whitepaper (authored by Oracle)](retrospective-report-oracle.pdf)
 * [Review of the keynote at NODES 2021 (Neo4j Online Developer Expo and Summit)](retrospective-report-neo4j.pdf)
+
+### Fair use policies
+
+The LDBC Social Network Benchmark is subject to the [LDBC Fair Use Policies](/benchmarks/fair-use-policies).

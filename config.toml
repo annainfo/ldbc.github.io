@@ -123,6 +123,11 @@ hasChildren = true
     name = "Developer Community"
     url = "developer-community"
     weight = 9
+    [[menu.main]]
+    parent = "benchmarks"
+    name = "Fair Use Policies"
+    url = "benchmarks/fair-use-policies"
+    weight = 10
 
 [[menu.main]]
 weight = 9

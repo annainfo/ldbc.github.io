@@ -20,10 +20,17 @@ The [LDBC Social Network Benchmark specification](https://arxiv.org/abs/2001.022
 
 ### SNB Business Intelligence workload – Audited results
 
-| **SF** | **Power score** | **Throughput score** | **Cost** | **Software** | **Hardware** | **Test Sponsor** | **Date** | **SNB BI Version** | **Full Disclosure Report** |
-|--------|-----------------|----------------------|----------|--------------|--------------|------------------|----------|--------------------|----------------------------|
+| **SF** | **Power @SF** | **Power @SF/$** | **Throughput @SF** | **Throughput @SF/$** | **Cost** | **Software** | **Hardware** | **Test Sponsor** | **Date** | **FDR** |
+|-|-|-|-|-|-|-|-|-|-|-|
+| 1000 | 30990.08 | 22.90 | 12993.85 | 9.60 | $1,353,315 | [TigerGraph&nbsp;3.7.0](https://docs.tigergraph.com/tigergraph-server/3.7) | Dell&nbsp;PowerEdge&nbsp;6625 with AMD EPYC 9354 | TigerGraph | 2022/11/09 | [FDR](LDBC_SNB_BI_20221109_SF1000_tigergraph.pdf) |
 
-As of Nov 3, no audited results were published for the SNB BI workload.
+#### Supplementary materials
+
+Supplementary material for the **2022 TigerGraph audit:**
+
+-  [Executive summary](LDBC_SNB_BI_20221109_SF1000_tigergraph-executive_summary.pdf)
+-  [Signatures](LDBC_SNB_BI_20221109_SF1000_tigergraph-signatures.pdf)
+-  [Attachments](https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_BI_20221109_SF1000_tigergraph-attachments.tar.gz)
 
 ### SNB Interactive workload – Audited results
 

@@ -207,19 +207,41 @@ The full disclosure further breaks down the composition of the metric into its c
 <thead>
 <tr>
 <th><strong>SF</strong></th>
-<th><strong>Power score</strong></th>
-<th><strong>Throughput score</strong></th>
+<th><strong>Power @SF</strong></th>
+<th><strong>Power @SF/$</strong></th>
+<th><strong>Throughput @SF</strong></th>
+<th><strong>Throughput @SF/$</strong></th>
 <th><strong>Cost</strong></th>
 <th><strong>Software</strong></th>
 <th><strong>Hardware</strong></th>
 <th><strong>Test Sponsor</strong></th>
 <th><strong>Date</strong></th>
-<th><strong>SNB BI Version</strong></th>
-<th><strong>Full Disclosure Report</strong></th>
+<th><strong>FDR</strong></th>
 </tr>
 </thead>
+<tbody>
+<tr>
+<td>1000</td>
+<td>30990.08</td>
+<td>22.90</td>
+<td>12993.85</td>
+<td>9.60</td>
+<td>$1,353,315</td>
+<td><a href="https://docs.tigergraph.com/tigergraph-server/3.7">TigerGraph 3.7.0</a></td>
+<td>Dell PowerEdge 6625 with AMD EPYC 9354</td>
+<td>TigerGraph</td>
+<td>2022/11/09</td>
+<td><a href="LDBC_SNB_BI_20221109_SF1000_tigergraph.pdf">FDR</a></td>
+</tr>
+</tbody>
 </table>
-<p>As of Nov 3, no audited results were published for the SNB BI workload.</p>
+<h4 id="supplementary-materials">Supplementary materials</h4>
+<p>Supplementary material for the <strong>2022 TigerGraph audit:</strong></p>
+<ul>
+<li><a href="LDBC_SNB_BI_20221109_SF1000_tigergraph-executive_summary.pdf">Executive summary</a></li>
+<li><a href="LDBC_SNB_BI_20221109_SF1000_tigergraph-signatures.pdf">Signatures</a></li>
+<li><a href="https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_BI_20221109_SF1000_tigergraph-attachments.tar.gz">Attachments</a></li>
+</ul>
 <h3 id="snb-interactive-workload--audited-results">SNB Interactive workload – Audited results</h3>
 <p><strong>Disclaimer:</strong> Performance results between implementations using the v0.x and the v1.x drivers are not directly comparable due to <a href="https://github.com/ldbc/ldbc_snb_interactive_driver/issues/154">improvements in the SNB driver regarding how operations are counted</a>.</p>
 <table>
@@ -348,7 +370,7 @@ The full disclosure further breaks down the composition of the metric into its c
 </tr>
 </tbody>
 </table>
-<h4 id="supplementary-materials">Supplementary materials</h4>
+<h4 id="supplementary-materials-1">Supplementary materials</h4>
 <p>Supplementary material for the <strong>2022 TuGraph audit sponsored by the Ant Group:</strong></p>
 <ul>
 <li><a href="LDBC_SNB_I_20220816_SF30-100-300_tugraph-executive_summary.pdf">Executive summary</a></li>

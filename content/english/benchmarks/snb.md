@@ -78,7 +78,7 @@ SNB Interactive audits can be commissioned from the following LDBC-certified aud
 
 SNB BI audits can be commissioned from the following LDBC-certified auditors:
 
-* Fabian Murariu (Pometry Ltd.) – certification in progress
+* Fabian Murariu (Pometry Ltd.)
 
 For auditing requests, please reach out at `info@ldbcouncil.org`.
 

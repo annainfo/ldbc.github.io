@@ -73,6 +73,7 @@ Supplementary material for the **2020 TuGraph audit sponsored by FMA:**
 
 SNB Interactive audits can be commissioned from the following LDBC-certified auditors:
 
+* Arnau Prat-Pérez
 * Márton Búr
 * David Püroja
 

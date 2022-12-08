@@ -82,6 +82,8 @@ SNB BI audits can be commissioned from the following LDBC-certified auditors:
 * Fabian Murariu (Pometry Ltd.)
 
 For auditing requests, please reach out at `info@ldbcouncil.org`.
+Audits can only be commissioned by LDBC member companies by contracting any of the LDBC-certified auditors.
+Additionally, there is a 2,000 GBP auditing fee to be paid for the LDBC for non-sponsor company members. Sponsor companies are exempt from this.
 
 #### Legacy audited results
 

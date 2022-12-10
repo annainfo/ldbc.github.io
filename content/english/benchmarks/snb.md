@@ -22,7 +22,7 @@ The [LDBC Social Network Benchmark specification](https://arxiv.org/abs/2001.022
 
 | **SF** | **Power @SF** | **Power @SF/$** | **Throughput @SF** | **Throughput @SF/$** | **Cost** | **Software** | **Hardware** | **Test Sponsor** | **Date** | **FDR** |
 |-|-|-|-|-|-|-|-|-|-|-|
-| 1000 | 30990.08 | 22.90 | 12993.85 | 9.60 | $1,353,315 | [TigerGraph&nbsp;3.7.0](https://docs.tigergraph.com/tigergraph-server/3.7) | Dell&nbsp;PowerEdge&nbsp;6625 with AMD EPYC 9354 | TigerGraph | 2022/11/09 | [FDR](LDBC_SNB_BI_20221109_SF1000_tigergraph.pdf) |
+| 1000 | 30,990.08 | 22.90 | 12,993.85 | 9.60 | $1,353,315 | [TigerGraph&nbsp;3.7.0](https://docs.tigergraph.com/tigergraph-server/3.7) | Dell&nbsp;PowerEdge&nbsp;6625 with AMD EPYC 9354 | TigerGraph | 2022/11/09 | [FDR](LDBC_SNB_BI_20221109_SF1000_tigergraph.pdf) |
 
 #### Supplementary materials
 

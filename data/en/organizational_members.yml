@@ -23,6 +23,9 @@ members:
   companies_title: "Companies"
   # The template automatically does the alphabetical ordering based on the name of the company
   companies:
+    - name: "Alibaba Damo Academy"
+      logo: "images/members/alibaba-damo-academy.png"
+      link: "https://damo.alibaba.com/"
     - name: "ArangoDB"
       logo: "images/members/arangodb.png"
       link: "https://www.arangodb.com/"

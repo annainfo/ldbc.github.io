@@ -20,6 +20,8 @@ The benefits of [LDBC membership](/organizational-members) are:
 * Commercial company​: 2,200 GBP
 * Sponsor company/institution: 8,800 GBP
 
+Note that there is a 2,000 GBP auditing fee per audit for the LDBC for non-sponsor company members. Sponsor companies are exempt from this.
+
 ### Forms
 
 For the latest information on becoming an LDBC member, see the [LDBC Membership – Joining and Renewing 2022](/docs/LDBC.Membership.-.Joining.and.Renewing.2022.pdf) document.

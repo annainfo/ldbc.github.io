@@ -13,6 +13,9 @@ summaryLength = "10"
 # disable language
 disableLanguages = [] # disable language from here
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 

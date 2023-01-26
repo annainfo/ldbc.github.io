@@ -1,0 +1,179 @@
+
+# ################################# audits ################################################
+snb_audits:
+  enable: true
+  title: "LDBC SNB audits"
+  intro_text: |
+    The Social Network Benchmark suite defines graph workloads targeting database management systems.
+    The benchmark suite consists of two distinct benchmarks on a common dataset, since there are **two different workloads**:
+
+    - **Business Intelligence workload** is focusing on aggregation- and join-heavy complex queries touching a large portion of the graph with microbatches of insert/delete operations. Its data sets are available in [Cloudflare R2](https://github.com/ldbc/ldbc_snb_bi/blob/main/snb-bi-pre-generated-data-sets.md).
+    - **Interactive workload** captures transactional graph processing scenario with complex read queries that access the neighbourhood of a given node in the graph and update operations that continuously insert new data in the graph. Its data sets are available in the [CWI/SURF data repository](https://hdl.handle.net/11112/e6e00558-a2c3-9214-473e-04a16de09bf8).
+
+    Each workload produces scoring metrics for performance at the given scale and price/performance metrics.
+    The Full Disclosure Report (FDR) further breaks down the composition of the metric into its constituent parts, e.g. single query execution times.
+
+    The [LDBC Social Network Benchmark specification](https://arxiv.org/abs/2001.02299) (including the latest and earlier versions) can be found on arXiv. If you are interested in getting audited results, please reach out at info AT ldbcouncil.org.
+  outro_text: |
+    ### LDBC-certified auditors
+
+    SNB Interactive audits can be commissioned from the following LDBC-certified auditors:
+
+    * Márton Búr
+    * Arnau Prat-Pérez
+    * David Püroja
+
+    SNB BI audits can be commissioned from the following LDBC-certified auditors:
+
+    * Fabian Murariu (Pometry Ltd.)
+    * David Püroja
+
+    For auditing requests, please reach out at `info@ldbcouncil.org`.
+    Audits can only be commissioned by LDBC member companies by contracting any of the LDBC-certified auditors.
+    Additionally, there is a 2,000 GBP auditing fee to be paid for the LDBC for non-sponsor company members. Sponsor companies are exempt from this.
+
+    ### Use of audited results
+
+    #### Fair use policies
+
+    The LDBC Social Network Benchmark is subject to the [LDBC Fair Use Policies](/benchmarks/fair-use-policies).
+
+    #### Retrospective review of publications related to LDBC benchmark standards
+
+    * [Review of 2019 preprint (sponsored by TigerGraph)](retrospective-report-tigergraph.pdf)
+    * [Review of 2020 whitepaper (authored by Oracle)](retrospective-report-oracle.pdf)
+    * [Review of the keynote at NODES 2021 (Neo4j Online Developer Expo and Summit)](retrospective-report-neo4j.pdf)
+
+    ### Legacy audited results
+
+    [Social Network Benchmark Interactive, version 0.2.2](/benchmarks/snb/audited-results-v0.2.2)
+  interactive:
+    - date: 2022-08-16
+      test_sponsor_name: Ant Group
+      test_sponsor_url: https://www.antgroup.com/en
+      software_name: TuGraph
+      software_version: 3.2.0
+      software_url: https://tech.antfin.com/products/TuGraph
+      specification_version: 0.3.6
+      specification_url: https://arxiv.org/pdf/2001.02299v3.pdf
+      driver_version: 1.2.0
+      driver_url: https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/v1.2.0
+      full_disclosure_report: LDBC_SNB_I_20220816_SF30-100-300_tugraph.pdf
+      executive_summary: LDBC_SNB_I_20220816_SF30-100-300_tugraph-executive_summary.pdf
+      signatures: LDBC_SNB_I_20220816_SF30-100-300_tugraph-signatures.pdf
+      supplementary_package: https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_I_20200726_SF30-100-300_tugraph-attachments.tar.gz
+      runs:
+      - scale_factor: 30
+        throughput: 12,252.50
+        price: 291,176
+        currency: USD
+        hardware: |
+          AWS r5d.12xlarge, 384GiB RAM,
+          48×Intel Xeon Platinum 8259CL
+      - scale_factor: 100
+        throughput: 12,934.61
+        price: 291,176
+        currency: USD 
+        hardware: |
+          AWS r5d.12xlarge, 384GiB RAM,
+          48×Intel Xeon Platinum 8259CL
+      - scale_factor: 300
+        throughput: 12,721.24
+        price: 291,176
+        currency: USD
+        hardware: |
+          AWS r5d.12xlarge, 384GiB RAM,
+          48×Intel Xeon Platinum 8259CL
+    - date: 2022-05-16
+      test_sponsor_name: CreateLink
+      test_sponsor_url: https://galaxybase.com/
+      software_name: Galaxybase
+      software_version: 3.3.0
+      software_url: https://galaxybase.com/
+      specification_version: 0.3.3
+      specification_url: https://arxiv.org/pdf/2001.02299v2.pdf
+      driver_version: 0.3.4
+      driver_url: https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/0.3.4
+      full_disclosure_report: LDBC_SNB_I_20220516_SF30-100-300_galaxybase.pdf
+      executive_summary: LDBC_SNB_I_20220516_SF30-100-300_galaxybase-executive_summary.pdf
+      signatures: LDBC_SNB_I_20220516_SF30-100-300_galaxybase-signatures.pdf
+      supplementary_package: https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_I_20220516_SF30-100-300_galaxybase-attachments.tar.gz
+      runs:
+      - scale_factor: 30
+        throughput: 9,285.86
+        price: 263,282
+        currency: USD
+        hardware: |
+          AWS r5d.12xlarge, 372GB RAM,
+          48×Intel Xeon Platinum 8259CL
+      - scale_factor: 100
+        throughput: 8,501.21
+        price: 263,282
+        currency: USD
+        hardware: |
+          AWS r5d.12xlarge, 372GB RAM,
+          48×Intel Xeon Platinum 8259CL
+      - scale_factor: 300
+        throughput: 8,370.52
+        price: 263,282
+        currency: USD
+        hardware: |
+          AWS r5d.12xlarge, 372GB RAM,
+          48×Intel Xeon Platinum 8259CL
+    - date: 2020-07-26
+      test_sponsor_name: FMA
+      test_sponsor_url: https://fma-ai.cn/
+      software_name: TuGraph
+      software_version: 1.10
+      software_url: https://fma-ai.cn/
+      specification_version: 0.3.2
+      specification_url: https://arxiv.org/pdf/2001.02299v1.pdf
+      driver_version: 0.3.3
+      driver_url: https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/0.3.3
+      full_disclosure_report: LDBC_SNB_I_20200726_SF30-100-300_tugraph.pdf
+      executive_summary: LDBC_SNB_I_20200726_SF30-100-300_tugraph-executive_summary.pdf
+      signatures: LDBC_SNB_I_20200726_SF30-100-300_tugraph-signatures.pdf
+      supplementary_package: https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_I_20220816_SF30-100-300_tugraph-attachments.tar.gz
+      runs:
+      - scale_factor: 30
+        throughput: 5,436.47
+        price: 280,650
+        currency: USD
+        hardware: |
+          AWS r5d.12xlarge, 374GB RAM,
+          48×Intel Xeon Platinum 8175M
+      - scale_factor: 100
+        throughput: 5,010.77
+        price: 280,650
+        currency: USD
+        hardware: |
+          AWS r5d.12xlarge, 374GB RAM,
+          48×Intel Xeon Platinum 8175M
+      - scale_factor: 300
+        throughput: 4,855.52
+        price: 280,650
+        currency: USD
+        hardware: |
+          AWS r5d.12xlarge, 374GB RAM,
+          48×Intel Xeon Platinum 8175M
+  bi:
+    - date: 2022-11-09
+      test_sponsor_name: TigerGraph
+      test_sponsor_url: https://tigergraph.com/
+      software_name: TigerGraph
+      software_version: 3.7.0
+      software_url: https://docs.tigergraph.com/tigergraph-server/3.7
+      full_disclosure_report: LDBC_SNB_BI_20221109_SF1000_tigergraph.pdf
+      executive_summary: LDBC_SNB_BI_20221109_SF1000_tigergraph-executive_summary.pdf
+      signatures: LDBC_SNB_BI_20221109_SF1000_tigergraph-signatures.pdf
+      supplementary_package: https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_BI_20221109_SF1000_tigergraph-attachments.tar.gz
+      runs:
+      - scale_factor: 1000
+        power_at_sf: "30,990.08"
+        power_at_sf_price_adjusted: "22.90"
+        throughput_at_sf: "12,993.85"
+        throughput_at_sf_price_adjusted: "9.60"
+        price: 1,353,315
+        currency: USD
+        hardware: |
+          Dell PowerEdge 6625 with AMD EPYC 9354

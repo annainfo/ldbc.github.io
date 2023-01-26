@@ -9,6 +9,8 @@ To clone the repository with submodules, run:
 ```bash
 git clone --recurse-submodules git@github.com:ldbc/ldbc.github.io.git
 git submodule foreach --recursive git checkout master
+cd ldbc.github.io.git/themes/bexer-hugo
+git checkout master
 ```
 
 ## Building the site

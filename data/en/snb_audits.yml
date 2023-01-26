@@ -163,6 +163,10 @@ snb_audits:
       software_name: TigerGraph
       software_version: 3.7.0
       software_url: https://docs.tigergraph.com/tigergraph-server/3.7
+      specification_version: 2.2.0
+      specification_url: https://arxiv.org/pdf/2001.02299v7.pdf
+      driver_version: 1.0.2
+      driver_url: https://github.com/ldbc/ldbc_snb_bi/releases/tag/v1.0.2
       full_disclosure_report: LDBC_SNB_BI_20221109_SF1000_tigergraph.pdf
       executive_summary: LDBC_SNB_BI_20221109_SF1000_tigergraph-executive_summary.pdf
       signatures: LDBC_SNB_BI_20221109_SF1000_tigergraph-signatures.pdf

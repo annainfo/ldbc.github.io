@@ -156,6 +156,42 @@ snb_audits:
         hardware: |
           AWS r5d.12xlarge, 374GB RAM,
           48×Intel Xeon Platinum 8175M
+    - date: 2023-01-27
+      test_sponsor_name: Ant Group
+      test_sponsor_url: https://www.antgroup.com/en
+      software_name: TuGraph
+      software_version: 3.3.4
+      software_url: https://github.com/tugraph-db/tugraph-db
+      specification_version: 0.3.6
+      specification_url: https://arxiv.org/pdf/2001.02299v3.pdf
+      driver_version: 1.2.0
+      driver_url: https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/v1.2.0
+      full_disclosure_report: LDBC_SNB_I_20230127_SF30-100-300_tugraph.pdf
+      executive_summary: LDBC_SNB_I_20230127_SF30-100-300_tugraph-executive_summary.pdf
+      signatures: LDBC_SNB_I_20220127_SF30-100-300_tugraph-signatures.pdf
+      supplementary_package: https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_I_20230127_SF30-100-300_tugraph-attachments.tar.gz
+      runs:
+      - scale_factor: 30
+        throughput: 16,133.08
+        price: 277,542
+        currency: RMB
+        hardware: |
+          Alibaba Cloud ecs.g8y.16xlarge, 256GiB RAM,
+          64×ARM-based YiTian 710
+      - scale_factor: 100
+        throughput: 16,966.26
+        price: 277,542
+        currency: RMB
+        hardware: |
+          Alibaba Cloud ecs.g8y.16xlarge, 256GiB RAM,
+          64×ARM-based YiTian 710
+      - scale_factor: 300
+        throughput: 13,532.62
+        price: 277,542
+        currency: RMB
+        hardware: |
+          Alibaba Cloud ecs.g8y.16xlarge, 256GiB RAM,
+          64×ARM-based YiTian 710
   bi:
     - date: 2022-11-09
       test_sponsor_name: TigerGraph

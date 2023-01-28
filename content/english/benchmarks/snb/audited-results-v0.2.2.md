@@ -1,9 +1,9 @@
 ---
-title: "LDBC Social Network Benchmark version 0.2.2 audited results"
+title: "LDBC Social Network Benchmark legacy audited results"
 type: generic
 ---
 
-## Social Network Benchmark Interactive ([version 0.2.2](https://github.com/ldbc/ldbc_snb_docs/blob/8d325657069b444dd79fe21c770ecc9d88cc2c53/LDBC_SNB_v0.2.2.pdf)) audited results 
+## SNB Interactive ([version 0.2.2](https://github.com/ldbc/ldbc_snb_docs/blob/8d325657069b444dd79fe21c770ecc9d88cc2c53/LDBC_SNB_v0.2.2.pdf)) audited results 
 
 |                                            **SF** | **Throughput**                               | **Cost**        | **Software**                                                                          | **Hardware**                           | **Test Sponsor**                                                 | **Date**                                            | **Full Disclosure Report**                                          |
 | ------------------------------------------------: | ------------------------------------------------------ | --------------- | ------------------------------------------------------------------------------------- | -------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------- |

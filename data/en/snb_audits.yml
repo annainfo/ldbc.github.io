@@ -62,6 +62,7 @@ snb_audits:
       executive_summary: LDBC_SNB_I_20220816_SF30-100-300_tugraph-executive_summary.pdf
       signatures: LDBC_SNB_I_20220816_SF30-100-300_tugraph-signatures.pdf
       supplementary_package: https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_I_20200726_SF30-100-300_tugraph-attachments.tar.gz
+      throughput_at_largest_sf: 12721.24
       runs:
       - scale_factor: 30
         throughput: 12,252.50
@@ -98,6 +99,7 @@ snb_audits:
       executive_summary: LDBC_SNB_I_20220516_SF30-100-300_galaxybase-executive_summary.pdf
       signatures: LDBC_SNB_I_20220516_SF30-100-300_galaxybase-signatures.pdf
       supplementary_package: https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_I_20220516_SF30-100-300_galaxybase-attachments.tar.gz
+      throughput_at_largest_sf: 8370.52
       runs:
       - scale_factor: 30
         throughput: 9,285.86
@@ -134,6 +136,7 @@ snb_audits:
       executive_summary: LDBC_SNB_I_20200726_SF30-100-300_tugraph-executive_summary.pdf
       signatures: LDBC_SNB_I_20200726_SF30-100-300_tugraph-signatures.pdf
       supplementary_package: https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_I_20220816_SF30-100-300_tugraph-attachments.tar.gz
+      throughput_at_largest_sf: 4855.52
       runs:
       - scale_factor: 30
         throughput: 5,436.47
@@ -156,7 +159,7 @@ snb_audits:
         hardware: |
           AWS r5d.12xlarge, 374GB RAM,
           48×Intel Xeon Platinum 8175M
-    - date: 2023-01-27
+    - date: 2023-01-28
       test_sponsor_name: Ant Group
       test_sponsor_url: https://www.antgroup.com/en
       software_name: TuGraph
@@ -166,10 +169,11 @@ snb_audits:
       specification_url: https://arxiv.org/pdf/2001.02299v3.pdf
       driver_version: 1.2.0
       driver_url: https://github.com/ldbc/ldbc_snb_interactive_driver/releases/tag/v1.2.0
-      full_disclosure_report: LDBC_SNB_I_20230127_SF30-100-300_tugraph.pdf
-      executive_summary: LDBC_SNB_I_20230127_SF30-100-300_tugraph-executive_summary.pdf
-      signatures: LDBC_SNB_I_20220127_SF30-100-300_tugraph-signatures.pdf
-      supplementary_package: https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_I_20230127_SF30-100-300_tugraph-attachments.tar.gz
+      full_disclosure_report: LDBC_SNB_I_20230128_SF30-100-300_tugraph.pdf
+      executive_summary: LDBC_SNB_I_20230128_SF30-100-300_tugraph-executive_summary.pdf
+      signatures: LDBC_SNB_I_20230128_SF30-100-300_tugraph-signatures.pdf
+      supplementary_package: https://pub-383410a98aef4cb686f0c7601eddd25f.r2.dev/audits/LDBC_SNB_I_20230128_SF30-100-300_tugraph-attachments.tar.gz
+      throughput_at_largest_sf: 13532.62
       runs:
       - scale_factor: 30
         throughput: 16,133.08

@@ -181,21 +181,21 @@ snb_audits:
         currency: RMB
         hardware: |
           Alibaba Cloud ecs.g8y.16xlarge, 256GiB RAM,
-          64×ARM-based YiTian 710
+          64×Arm-based YiTian 710
       - scale_factor: 100
         throughput: 16,966.26
         price: 277,542
         currency: RMB
         hardware: |
           Alibaba Cloud ecs.g8y.16xlarge, 256GiB RAM,
-          64×ARM-based YiTian 710
+          64×Arm-based YiTian 710
       - scale_factor: 300
         throughput: 13,532.62
         price: 277,542
         currency: RMB
         hardware: |
           Alibaba Cloud ecs.g8y.16xlarge, 256GiB RAM,
-          64×ARM-based YiTian 710
+          64×Arm-based YiTian 710
   bi:
     - date: 2022-11-09
       test_sponsor_name: TigerGraph

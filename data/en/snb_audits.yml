@@ -13,7 +13,7 @@ snb_audits:
     Each workload produces scoring metrics for performance at the given scale and price/performance metrics.
     The Full Disclosure Report (FDR) further breaks down the composition of the metric into its constituent parts, e.g. single query execution times.
 
-    The [LDBC Social Network Benchmark specification](https://arxiv.org/abs/2001.02299) (including the latest and earlier versions) can be found on arXiv. If you are interested in getting audited results, please reach out at info AT ldbcouncil.org.
+    For a brief overview, see our [talk given at FOSDEM 2023's graph developer room](https://fosdem.org/2023/schedule/event/graph_ldbc/). The [Social Network Benchmark specification](https://arxiv.org/abs/2001.02299) can be found on arXiv. If you are interested in getting audited results, please reach out at info AT ldbcouncil.org.
   outro_text: |
     ### LDBC-certified auditors
 

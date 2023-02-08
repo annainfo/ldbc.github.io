@@ -7,19 +7,11 @@ aliases: [
 type: generic
 ---
 
-The Graphalytics benchmark is an industrial-grade benchmark for **graph
-analysis platforms** such as Giraph. It consists of six core
-algorithms, standard data sets, synthetic data set generators,
-and reference outputs, enabling the objective comparison of graph
-analysis platforms. 
+The Graphalytics benchmark is an industrial-grade benchmark for **graph analysis platforms** such as Giraph. It consists of six core algorithms, standard data sets, synthetic data set generators, and reference outputs, enabling the objective comparison of graph analysis platforms.
 
-The design of the benchmark process takes into account that
-graph-processing is impeded by three dimensions of
-diversity: **platform**,  **algorithms** and **data set**. 
+The design of the benchmark process takes into account that graph-processing is impeded by three dimensions of diversity: **platform**,  **algorithms** and **data set**.
 
-The benchmark harness consists of a core component, which is extendable
-by a driver for each different platform implementation. The choice of
-the six algorithms:
+The benchmark harness consists of a core component, which is extendable by a driver for each different platform implementation. The choice of the six algorithms:
 
 1.  breadth-first search,
 2.  PageRank,
@@ -28,27 +20,13 @@ the six algorithms:
 5.  local clustering coefficient, and
 6.  single-source shortest paths
 
-was carefully motivated, using the LDBC TUC and extensive literature
-surveys to ensure good coverage of scenarios. The standard data sets
-include both real and synthetic data sets, which are classified into
-intuitive “T-shirt” sizes (e.g., **S, M, L, XL**).
+was carefully motivated, using the LDBC TUC and extensive literature surveys to ensure good coverage of scenarios. The standard data sets include both real and synthetic data sets, which are classified into intuitive “T-shirt” sizes (e.g., **S, M, L, XL**).
 
-Each experiment set in Graphalytics consists of **multiple platform
-runs** (a platform executes an algorithm on a data set), and diverse set
-of experiments are carried out to evaluate different performance
-characteristics of a system-under-test.
+Each experiment set in Graphalytics consists of **multiple platform runs** (a platform executes an algorithm on a data set), and diverse set of experiments are carried out to evaluate different performance characteristics of a system-under-test.
 
-All completed benchmarks must go through a strict **validation process**
-to ensure the integrity of the performance results.
+All completed benchmarks must go through a strict **validation process** to ensure the integrity of the performance results.
 
-The development of Graphalytics is supported by many active vendors in
-the field of large-scale graph analytics. Currently, Graphalytics
-already facilitates benchmark for a large number of graph analytics
-platforms, such as GraphBLAS, Giraph, GraphX, and PGX.D, allowing
-comparison of the state-of-the-art system performance of both
-community-driven and industrial-driven platforms. To get started, the
-details of the Graphalyics documentation and its software components are
-described below.
+The development of Graphalytics is supported by many active vendors in the field of large-scale graph analytics. Currently, Graphalytics already facilitates benchmark for a large number of graph analytics platforms, such as GraphBLAS, Giraph, GraphX, and PGX.D, allowing comparison of the state-of-the-art system performance of both community-driven and industrial-driven platforms. To get started, the details of the Graphalyics documentation and its software components are described below.
 
 Documents and repositories:
 

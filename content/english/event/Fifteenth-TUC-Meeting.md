@@ -30,9 +30,9 @@ We will have a social event on Friday at 17:30 at [El Vez](https://elvezrestaura
 
 | start | finish | speaker                                                       | title |
 |-------|--------|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| 9:20  | 9:30   | Peter Boncz (LDBC/CWI)                                        | State of the union – [slides](attachments/peter-boncz-state-of-the-union.pdf), [video](https://youtu.be/39BoOIGk9Is) |
-| 9:30  | 9:45   | Alastair Green (LDBC/Birkbeck)                                | LDBC's fair use policies – [slides](attachments/alastair-green-fair-use-of-the-ldbc-trademark.pdf), [video](https://youtu.be/7zmCysN4Rpg) |
-| 9:50  | 10:05  | Gábor Szárnyas (LDBC/CWI), Jack Waudby (Newcastle University) | LDBC Social Network Benchmark: Business Intelligence workload v1.0 – [slides](attachments/gabor-szarnyas-the-ldbc-social-network-benchmark-business-intelligence-workload.pdf), [video](https://youtu.be/AJ96M8_njxE) |
+| 09:20  | 09:30   | Peter Boncz (LDBC/CWI)                                        | State of the union – [slides](attachments/peter-boncz-state-of-the-union.pdf), [video](https://youtu.be/39BoOIGk9Is) |
+| 09:30  | 09:45   | Alastair Green (LDBC/Birkbeck)                                | LDBC's fair use policies – [slides](attachments/alastair-green-fair-use-of-the-ldbc-trademark.pdf), [video](https://youtu.be/7zmCysN4Rpg) |
+| 09:50  | 10:05  | Gábor Szárnyas (LDBC/CWI), Jack Waudby (Newcastle University) | LDBC Social Network Benchmark: Business Intelligence workload v1.0 – [slides](attachments/gabor-szarnyas-the-ldbc-social-network-benchmark-business-intelligence-workload.pdf), [video](https://youtu.be/AJ96M8_njxE) |
 | 10:10 | 10:25  | Heng Lin (Ant Group)                                          | LDBC Financial Benchmark introduction – [slides](attachments/heng-lin-ldbc-financial-benchmark-introduction.pdf), [video](https://youtu.be/iBhud_YjafY) |
 | 10:30 | 11:00  | _coffee break_                                                | |
 | 11:00 | 11:15  | Chen Zhang (CreateLink)                                       | New LDBC SNB benchmark record by Galaxybase: More than 6 times faster and 70% higher throughput – [slides](attachments/chen-zhang-new-ldbc-snb-benchmark-record-by-galaxybase-more-than-6-times-faster-and-70-percent-higher-throughput.pdf), [video](https://youtu.be/sMzTsb8iw_Y) |
